@@ -1,0 +1,12 @@
+{
+    "model path": "models/HDBeetle",
+    "model ID": "HDBeetle-12",
+    "droneConfig path": "data",
+    "droneConfig name": "HDBeetleConfig.json",
+    "make moment DiffSys": true,
+    "DiffSys u": [
+        "U_p",
+        "U_q",
+        "U_r"
+    ]
+}

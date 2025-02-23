@@ -1,0 +1,32 @@
+{
+    "logging file":{
+        "directory":"data",
+        "filename":"HDBeetle_file_log",
+        "rows of flights to use (all)":[
+            "2-5", 8
+        ]
+    },
+    "data importing":{
+        "import raw data":true,
+        "resampling rate":500,
+        "use onboard attitude":true,
+        "do onboard c.g. correction":true,
+        "filter optitrack outliers":true,
+        "optitrack velocity Hz cutoff":10,
+        "save raw data":true,
+        "imported data save directory":"data/processed/imported",
+        "align with optitrack using":["pitch", "yaw"],
+        "max permitted lag for optitrack":25,
+        "show onboard and optitrack alignment plots":true
+    },
+    "data filtering":{
+        "use noise statistics in drone config":true,
+        "run extended kalman filter":true,
+        "save kalman filter convergence results":false,
+        "remove influence of gravity":false,
+        "show filtering results":true,
+        "add induced velocity":false,
+        "save filtered data":true,
+        "filtered data save directory":"data/processed/filtered"
+    }
+}

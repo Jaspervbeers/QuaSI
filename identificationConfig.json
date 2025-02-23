@@ -1,0 +1,58 @@
+{
+    "logging file": {
+        "directory": "data",
+        "filename": "HDBeetle_file_log",
+        "rows of flights to use (all)": [
+            2, 3, 5, 8
+        ],
+        "rows of flights for validation": [
+            3
+        ]
+    },
+    "filtered data save directory": "data/processed/filtered/withGravity",
+    "plotting": {
+        "show trajectories": true,
+        "number of drone stills": 5,
+        "show animation": true,
+        "animation speed up factor": 1
+    },
+    "data normalization": {
+        "normalize data": false
+    },
+    "data partitioning": {
+        "usable data ratio": 0.9,
+        "random partition": true,
+        "partition ratio": 0.8
+    },
+    "manoeuvre excitations": {
+        "isolate to regions of excitation": false,
+        "show isolation results":true,
+        "excitation threshold": 0.5,
+        "spread": 0.05
+    },
+    "identification parameters": {
+        "show actuator constant estimation": false,
+        "polynomial specification file":"droneidentification/polynomialCandidates/polyCands_DiffSys_quadraticU_symmetric_SIMPLE_FM.json",
+        "add bias term fx":true,
+        "add bias term fy":true,
+        "add bias term fz":true,
+        "add bias term mx":true,
+        "add bias term my":true,
+        "add bias term mz":true,
+        "identify fx": true,
+        "identify fy": true,
+        "identify fz": true,
+        "identify mx": true,
+        "identify my": true,
+        "identify mz": true,
+        "prediction interval confidence level": 0.95,
+        "polynomial": {
+            "regressor cap": 3
+        }
+    },
+    "saving models": {
+        "save identified models": true,
+        "save directory": "models/HDBeetle",
+        "model ID": "HDBeetle-12"
+    }
+}

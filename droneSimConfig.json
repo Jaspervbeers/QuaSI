@@ -1,0 +1,39 @@
+{
+    "model":{
+        "use identified model":true,
+        "model path":"models",
+        "model ID":"HDBeetle-12",
+        "correct for moment asymmetries":true
+    },
+    "noise":{
+        "add":true,
+        "seed":737400
+    },
+    "controller":{
+        "controller":"drone_INDI"
+    },
+    "actuator":{
+        "actuator":"rotorDynamicsV2"
+    },
+    "simulation":{
+        "time step":0.004,
+        "duration":10
+    },
+    "references":{
+        "do position track":false,
+        "do circle track":true
+    },
+    "initial state conditions":{
+        "attitude":[0, 0, 0],
+        "position":[0, 0, 0]
+    },
+    "faults":{
+        "inject failure":false,
+        "time of failure":1,
+        "rotor health after failure":[0, 1, 0, 1]
+    },
+    "animation":{
+        "show":true,
+        "save":false
+    }
+}
