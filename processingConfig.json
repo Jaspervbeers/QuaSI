@@ -3,7 +3,7 @@
         "directory":"data",
         "filename":"HDBeetle_file_log",
         "rows of flights to use (all)":[
-            "2-5", 8
+            "2-5", 8, 9, 10, 13
         ]
     },
     "data importing":{
