@@ -1,6 +1,6 @@
 # QuaSI
 
-Modular Python-base quadrotor simulation and model identification pipeline
+Modular Python-base quadrotor simulation and model identification pipeline. Please read the provided `User_manual_QuaSI.pdf' in the root directory for a detailed explanation of the pipeline, including example files and documentation. 
 
 ## Installation
 
