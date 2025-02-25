@@ -75,7 +75,7 @@ if doIdentification:
         json.dump(identificationConfig, f, indent = 4)
 
     # Call the polynomial model identification script (note V3 is latest and most modular)
-    runScript('droneidentification/buildDronePolyModelV3')
+    runScript('droneidentification/buildDronePolyModel')
 
 
     # Make the model standalone
@@ -88,7 +88,7 @@ if doIdentification:
         json.dump(standaloneConfig, f, indent = 4)
 
     # Call the model packaging script
-    runScript('makeStandalonePolyModelV3', cwd = os.path.join(rootDir, 'droneidentification'))
+    runScript('makeStandalonePolyModel', cwd = os.path.join(rootDir, 'droneidentification'))
 
 
 # Port to MATLAB
