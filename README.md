@@ -76,3 +76,11 @@ install-repos.bat
 ```
 
 You may need permission to access these repositories, in case you are unable to clone one of them due to permission issues, do not hesitate to contact me (j.j.vanbeers@tudelft.nl) for access.
+
+
+## Extracting high-speed flight data
+Due to the large file size, the provided flight data is split among several .zip files in the data subfolder. 
+
+The install-repos.bat (and install-repos.sh) attempt to automatically extract this data. However, it the event that it fails then users can simply extract the data using an archive manager, such as 7zip: [https://www.7-zip.org/](https://www.7-zip.org/). 
+
+The extracted files should be contained within a raw folder: i.e. data/raw/...
