@@ -2,7 +2,7 @@
     "model":{
         "use identified model":true,
         "model path":"models",
-        "model ID":"HDBeetle-12",
+        "model ID":"HDBeetle-14",
         "correct for moment asymmetries":true
     },
     "noise":{

@@ -1,6 +1,6 @@
 {
     "model path": "models/HDBeetle",
-    "model ID": "HDBeetle-12",
+    "model ID": "MDL-HDBeetle",
     "droneConfig path": "data",
     "droneConfig name": "HDBeetleConfig.json",
     "make moment DiffSys": true,
